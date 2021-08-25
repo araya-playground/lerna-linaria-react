@@ -1,10 +1,11 @@
-import { css } from '@linaria/core';
-import { colors } from '../../../../packages/styles';
+import { css } from "@linaria/core";
+import { colors, getColors } from "../../../../packages/styles";
 
-console.log('Hello world')
+console.log("Hello world");
 
 const className = css`
-color: ${colors.black}
-`
+  color: ${colors.black};
+  background-color: ${getColors("white")};
+`;
 
-console.log(className)
+console.log(className);
