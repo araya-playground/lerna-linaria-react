@@ -1,0 +1,9 @@
+{
+  "name": "@araya-playground/linaria-styles",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@linaria/core": "^3.0.0-beta.4"
+  }
+}
