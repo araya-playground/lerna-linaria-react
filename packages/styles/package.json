@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "sideEffects": false,
   "dependencies": {
     "@linaria/core": "^3.0.0-beta.4"
   }

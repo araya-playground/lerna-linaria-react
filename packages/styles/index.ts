@@ -6,3 +6,5 @@ export const colors = {
 export function getColors(color: keyof typeof colors) {
   return colors[color];
 }
+
+export { spaces } from "./spaces";
